@@ -19,6 +19,4 @@
   ```bash 
       pip install -r requirements.txt.
 
-4. รันโปรเจกต์:
-   ```bash 
-      python app.py
+
