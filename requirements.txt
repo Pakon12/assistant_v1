@@ -1,0 +1,8 @@
+librosa
+numpy
+gradio
+soundfile
+transformers
+pythainlp
+gTTS
+torch
