@@ -16,8 +16,10 @@
       cd ./assistant_v1
 
 3. ติดตั้ง dependencies ที่จำเป็น:
-  ```bash pip install -r requirements.txt.
+  ```bash
+   pip install -r requirements.txt.
 
 4. รันโปรเจกต์:
-   ```bash python app.py
+   ```bash
+   python app.py
 
