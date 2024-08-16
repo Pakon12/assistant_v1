@@ -17,7 +17,7 @@
 
 3.ติดตั้ง dependencies ที่จำเป็น:
   ```bash 
-      pip install -r requirements.txt
+      pip install -r requirements.txt.
 
 4. รันโปรเจกต์:
    ```bash 
