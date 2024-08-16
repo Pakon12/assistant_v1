@@ -90,17 +90,17 @@ input_audio = gr.Audio(
 
 # Define the output text component
 # กำหนดส่วนประกอบข้อความเอาท์พุต
-output_textbox = gr.Textbox(label="Text")
+output_textbox = gr.Textbox(label="ถอดเสียง")
 
 # Create the Gradio interface
 # สร้างอินเทอร์เฟซ Gradio
 app = gr.Interface(
     fn=transcribe_audio,
     inputs=input_audio,
-    outputs=[output_textbox, gr.Audio(label="Audio", autoplay=True)],
+    outputs=[output_textbox, gr.Audio(label="ตอบกลับ", autoplay=True)],
     live=True,
-    title="Thai Speech-to-Text Demo",
-    description="Record your voice, and the app will transcribe it into Thai text."
+    title="AI KAK v1",
+    description="บันทึกเสียงของคุณ และแอปจะคุยกับ ai ชื่อว่า กาก สามารถทดสอบพูด เช่น สวัสดี พร้อมรับคำสั่ง กาก"
 )
 
 # Start a thread that checks for silence and clears the text after a timeout
