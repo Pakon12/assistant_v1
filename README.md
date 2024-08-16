@@ -12,11 +12,11 @@
    ```bash or cmd
    git clone https://github.com/Pakon12/assistant_v1.git
 2. เข้าไปในโฟลเดอร์โปรเจกต์:
-```bash or cmd
+```bash 
 cd ./assistant_v1
 3.ติดตั้ง dependencies ที่จำเป็น:
-```bash or cmd
+```bash 
 pip install -r requirements.txt
 4. รันโปรเจกต์:
-``bash or cmd
+``bash 
 python app.py
