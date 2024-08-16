@@ -10,15 +10,15 @@
 
 1. Clone repository จาก GitHub:
    ```bash
-   git clone https://github.com/Pakon12/assistant_v1.git
+      git clone https://github.com/Pakon12/assistant_v1.git
 2. เข้าไปในโฟลเดอร์โปรเจกต์:
    ```bash 
-   cd ./assistant_v1
+      cd ./assistant_v1
 
 3.ติดตั้ง dependencies ที่จำเป็น:
-   ```bash 
-   pip install -r requirements.txt
+  ```bash 
+      pip install -r requirements.txt
 
 4. รันโปรเจกต์:
    ```bash 
-   python app.py
+      python app.py
