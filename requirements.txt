@@ -6,3 +6,4 @@ transformers
 pythainlp
 gTTS
 torch
+requests

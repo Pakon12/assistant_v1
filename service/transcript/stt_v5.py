@@ -6,7 +6,8 @@ from pythainlp import correct
 
 class ThaiSpeechToText:
     def __init__(self, model_name="airesearch/wav2vec2-large-xlsr-53-th"):
-        self.dev = "cuda" if torch.cuda.is_available() else "cpu"
+        # self.dev = "cuda" if torch.cuda.is_available() else "cpu"
+        self.dev = "cpu"
         print(f"Running on {'GPU' if self.dev == 'cuda' else 'CPU'}")
 
         # โหลดโปรเซสเซอร์และโมเดลที่ผ่านการฝึกอบรมล่วงหน้า
