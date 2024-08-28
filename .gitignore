@@ -5,5 +5,6 @@ service/transcript/stt_v2.py
 service/transcript/stt_v3.py
 service/transcript/stt_v4.py
 /test_modules
+test_app.py
 
 
